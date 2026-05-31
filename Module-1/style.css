@@ -1,1 +1,205 @@
 
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+
+
+nav{
+    background:#222;
+    padding:15px;
+}
+
+.nav-menu{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.nav-menu a{
+    color:white;
+    text-decoration:none;
+}
+
+.nav-menu a:hover{
+    color:yellow;
+}
+
+
+
+#mainHeader{
+    background:linear-gradient(to right,#007bff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.highlight{
+    background:yellow;
+    color:black;
+    display:inline-block;
+    padding:5px 10px;
+    margin-top:10px;
+}
+
+
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+h2{
+    text-align:center;
+    color:#0056b3;
+    margin-bottom:15px;
+}
+
+
+
+#eventContainer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+    margin-top:15px;
+}
+
+.eventCard{
+    border:1px solid #ccc;
+    padding:15px;
+    width:220px;
+    text-align:center;
+    border-radius:8px;
+    background:#fafafa;
+}
+
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+tr:nth-child(even){
+    background:#f8f8f8;
+}
+
+.eventImage{
+    width:180px;
+    height:120px;
+    border:2px solid #007bff;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+input,
+select,
+textarea,
+button{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline:2px solid #007bff;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+#registrationOutput{
+    color:green;
+    font-weight:bold;
+}
+
+
+
+video{
+    display:block;
+    margin:auto;
+    border:2px solid #007bff;
+    border-radius:8px;
+}
+
+
+
+.news-columns{
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid gray;
+    text-align:justify;
+}
+
+
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+
+
+@media(max-width:768px){
+
+    .nav-menu{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .eventImage{
+        width:120px;
+        height:90px;
+    }
+
+    .news-columns{
+        column-count:1;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+}

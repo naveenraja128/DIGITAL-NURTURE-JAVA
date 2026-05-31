@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+    <rect width="300" height="200" fill="#dc3545"/>
+    <text x="150" y="100" text-anchor="middle"
+          fill="white" font-size="22">
+        Music Festival
+    </text>
+</svg>

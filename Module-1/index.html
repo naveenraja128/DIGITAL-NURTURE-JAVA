@@ -24,7 +24,7 @@
         </ul>
     </nav>
 
-   
+    
     <header id="mainHeader">
         <div id="welcomeBanner">
             <h1 style="color:red;">Local Community Event Portal</h1>
@@ -42,7 +42,7 @@
         </div>
     </header>
 
-   
+  
     <section id="home">
         <h2>Welcome</h2>
         <p>
@@ -67,32 +67,52 @@
         <div id="eventContainer"></div>
     </section>
 
-  
-    <section id="gallery">
-        <h2>Event Gallery</h2>
+   
 
-        <table>
-            <tr>
-                <td><img src="images/event1.jpg" alt="Event 1" class="eventImage"><p>Fair</p></td>
-                <td><img src="images/event2.jpg" alt="Event 2" class="eventImage"><p>Health Camp</p></td>
-                <td><img src="images/event3.jpg" alt="Event 3" class="eventImage"><p>Music Fest</p></td>
-            </tr>
+<section id="gallery">
+    <h2>Event Gallery</h2>
 
-            <tr>
-                <td><img src="images/event4.jpg" alt="Event 4" class="eventImage"><p>Sports</p></td>
-                <td><img src="images/event5.jpg" alt="Event 5" class="eventImage"><p>Food Fest</p></td>
-                <td>
-                    <img src="images/event6.jpg"
-                         alt="Event 6"
-                         class="eventImage"
-                         ondblclick="enlargeImage(this)">
-                    <p>Cultural Show</p>
-                </td>
-            </tr>
-        </table>
-    </section>
+    <table>
+        <tr>
+            <td>
+                <img src="event1.svg" alt="Community Fair" class="eventImage">
+                <p>Community Fair</p>
+            </td>
 
-    
+            <td>
+                <img src="event2.svg" alt="Health Camp" class="eventImage">
+                <p>Health Camp</p>
+            </td>
+
+            <td>
+                <img src="event3.svg" alt="Music Festival" class="eventImage">
+                <p>Music Festival</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="event4.svg" alt="Sports Event" class="eventImage">
+                <p>Sports Event</p>
+            </td>
+
+            <td>
+                <img src="event5.svg" alt="Food Festival" class="eventImage">
+                <p>Food Festival</p>
+            </td>
+
+            <td>
+                <img src="event6.svg"
+                     alt="Cultural Show"
+                     class="eventImage"
+                     ondblclick="enlargeImage(this)">
+                <p>Cultural Show</p>
+            </td>
+        </tr>
+    </table>
+</section>
+
+   
     <section id="register">
         <h2>Register for Event</h2>
 
@@ -134,7 +154,7 @@
         </form>
     </section>
 
- 
+   
     <section>
         <h2>Feedback</h2>
 
@@ -157,18 +177,9 @@
         </button>
     </section>
 
-   
-    <section>
-        <h2>Event Video</h2>
+ <section id="videoSection"> <h2>Event Preview</h2> <div class="videoPlaceholder">Preview content coming soon. This placeholder avoids external video dependencies.</div> <div id="videoStatus">Video preview will be available once the event launches.</div> </section>
 
-        <video id="promoVideo" controls width="500">
-            <source src="video/event.mp4" type="video/mp4">
-        </video>
-
-        <p id="videoMessage"></p>
-    </section>
-
-   
+    
     <section>
         <h2>User Preferences</h2>
 
@@ -176,7 +187,7 @@
         <button onclick="clearPreferences()">Clear Preference</button>
     </section>
 
-   
+  
     <section>
         <h2>Nearby Events</h2>
 
@@ -187,7 +198,7 @@
         <p id="locationResult"></p>
     </section>
 
-    
+  
     <section id="newsSection">
         <h2>Community Bulletin</h2>
 
@@ -205,7 +216,6 @@
         <p>Phone: +91 9876543210</p>
     </section>
 
-   
     <footer>
         <p>&copy; 2026 Local Community Event Portal</p>
     </footer>

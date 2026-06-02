@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Practice</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">Community Portal</a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Typography -->
+<div class="container mt-5">
+
+    <h1 class="display-1">Bootstrap 5</h1>
+
+    <p class="lead">
+        Local Community Event Portal
+    </p>
+
+    <p class="text-muted">
+        Bootstrap Typography Example
+    </p>
+
+    <p class="fw-bold">
+        Bold Text Example
+    </p>
+
+    <p class="text-uppercase">
+        uppercase text
+    </p>
+
+    <p class="text-lowercase">
+        LOWERCASE TEXT
+    </p>
+
+    <p class="text-capitalize">
+        bootstrap practice project
+    </p>
+
+</div>
+
+<!-- Grid -->
+<div class="container mt-5">
+
+    <h2>Responsive Grid</h2>
+
+    <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4 bg-primary text-white p-3">
+            Column 1
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 bg-success text-white p-3">
+            Column 2
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 bg-danger text-white p-3">
+            Column 3
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Sidebar Layout -->
+<div class="container mt-5">
+
+    <div class="row">
+
+        <div class="col-md-3 bg-light p-3">
+            Sidebar
+        </div>
+
+        <div class="col-md-9 bg-secondary text-white p-3">
+            Main Content Area
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Buttons -->
+<div class="container mt-5">
+
+    <h2>Buttons</h2>
+
+    <button class="btn btn-primary">Primary</button>
+
+    <button class="btn btn-secondary">Secondary</button>
+
+    <button class="btn btn-success">Success</button>
+
+    <button class="btn btn-danger">Danger</button>
+
+    <button class="btn btn-warning">Warning</button>
+
+    <button class="btn btn-outline-primary">Outline</button>
+
+</div>
+
+<!-- Button Group -->
+<div class="container mt-5">
+
+    <div class="btn-group">
+        <button class="btn btn-primary">Left</button>
+        <button class="btn btn-primary">Middle</button>
+        <button class="btn btn-primary">Right</button>
+    </div>
+
+</div>
+
+<!-- Form -->
+<div class="container mt-5">
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <div class="mb-3">
+            <input type="text"
+                   class="form-control"
+                   placeholder="Enter Name">
+        </div>
+
+        <div class="mb-3">
+            <input type="email"
+                   class="form-control"
+                   placeholder="Enter Email">
+        </div>
+
+        <div class="form-check mb-3">
+            <input class="form-check-input"
+                   type="checkbox">
+
+            <label class="form-check-label">
+                Accept Terms
+            </label>
+        </div>
+
+        <button class="btn btn-success">
+            Register
+        </button>
+
+    </form>
+
+</div>
+
+<!-- Floating Form -->
+<div class="container mt-5">
+
+    <div class="form-floating mb-3">
+        <input type="email"
+               class="form-control"
+               id="email">
+
+        <label for="email">
+            Email Address
+        </label>
+    </div>
+
+</div>
+
+<!-- Card -->
+<div class="container mt-5">
+
+    <div class="card shadow-lg" style="width:300px">
+
+        <img src="https://picsum.photos/300/200"
+             class="card-img-top">
+
+        <div class="card-body">
+
+            <h5 class="card-title">
+                Community Event
+            </h5>
+
+            <p class="card-text">
+                Bootstrap Card Example
+            </p>
+
+            <button class="btn btn-primary">
+                View
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Colors -->
+<div class="container mt-5">
+
+    <div class="bg-primary text-white p-3 mb-2">
+        Primary
+    </div>
+
+    <div class="bg-warning p-3 mb-2">
+        Warning
+    </div>
+
+    <div class="bg-success text-white p-3 mb-2">
+        Success
+    </div>
+
+</div>
+
+<!-- Border & Rounded -->
+<div class="container mt-5">
+
+    <img src="https://picsum.photos/150"
+         class="rounded-circle border border-primary border-3">
+
+</div>
+
+<!-- Position -->
+<div class="container mt-5">
+
+    <div class="position-relative d-inline-block">
+
+        <img src="https://picsum.photos/200">
+
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">
+            New
+        </span>
+
+    </div>
+
+</div>
+
+<!-- Icons -->
+<div class="container mt-5">
+
+    <h2>Bootstrap Icons</h2>
+
+    <i class="bi bi-facebook fs-1"></i>
+
+    <i class="bi bi-instagram fs-1"></i>
+
+    <i class="bi bi-twitter-x fs-1"></i>
+
+</div>
+
+<!-- Accordion -->
+<div class="container mt-5">
+
+    <div class="accordion" id="acc">
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header">
+
+                <button class="accordion-button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#one">
+
+                    Event Information
+
+                </button>
+
+            </h2>
+
+            <div id="one"
+                 class="accordion-collapse collapse show"
+                 data-bs-parent="#acc">
+
+                <div class="accordion-body">
+                    Community Event Details
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Modal Button -->
+<div class="container mt-5 mb-5">
+
+    <button class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#eventModal">
+
+        Open Modal
+
+    </button>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="eventModal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Event Registration
+                </h5>
+
+                <button class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+                Registration Successful
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Fixed Footer -->
+<footer class="position-fixed bottom-0 w-100 bg-dark text-white text-center p-2">
+    Bootstrap 5 Practice
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
